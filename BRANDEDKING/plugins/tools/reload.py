@@ -6,7 +6,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
 from BRANDEDKING import app
-from BRANDEDKING.core.call import TGN
+from BRANDEDKING.core.call import BRANDED
 from BRANDEDKING.misc import db
 from BRANDEDKING.utils.database import get_assistant, get_authuser_names, get_cmode
 from BRANDEDKING.utils.decorators import ActualAdminCB, AdminActual, language
