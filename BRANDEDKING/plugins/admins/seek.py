@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from BRANDEDKING import YouTube, app
-from BRANDEDKING.core.call import TGN
+from BRANDEDKING.core.call import BRANDED
 from BRANDEDKING.misc import db
 from BRANDEDKING.utils import AdminRightsCheck, seconds_to_min
 from BRANDEDKING.utils.inline import close_markup
