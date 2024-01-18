@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from BRANDEDKING import app
-from BRANDEDKING.core.call import TGN
+from BRANDEDKING.core.call import BRANDED
 from BRANDEDKING.misc import SUDOERS, db
 from BRANDEDKING.utils import AdminRightsCheck
 from BRANDEDKING.utils.database import is_active_chat, is_nonadmin_chat
