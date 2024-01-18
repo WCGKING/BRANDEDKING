@@ -3,7 +3,7 @@ from datetime import datetime
 
 import config
 from BRANDEDKING import app
-from BRANDEDKING.core.call import TGN, autoend
+from BRANDEDKING.core.call import BRANDED, autoend
 from BRANDEDKING.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
@@ -29,8 +29,9 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and i.chat.id != -1001762979765
-                                and i.chat.id != -1001810919938
+                                and i.chat.id != -1001626004802
+                                and i.chat.id != -1001876397776
+                                and i.chat.id != -1001860470873
                             ):
                                 if left == 20:
                                     continue
