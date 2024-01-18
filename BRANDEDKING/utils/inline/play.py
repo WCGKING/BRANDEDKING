@@ -4,35 +4,27 @@ from pyrogram.types import InlineKeyboardButton
 
 from BRANDEDKING.utils.formatters import time_to_seconds
 
+selections = [
+    "▁▄▂▇▄▅▄▅▃",
+    "▁▃▇▂▅▇▄▅▃",
+    "▃▁▇▂▅▃▄▃▅",
+    "▃▄▂▄▇▅▃▅▁",
+    "▁▃▄▂▇▃▄▅▃",
+    "▃▁▄▂▅▃▇▃▅",
+    "▁▇▄▂▅▄▅▃▄",
+    "▁▃▅▇▂▅▄▃▇",
+    "▃▅▂▅▇▁▄▃▁",
+    "▇▅▂▅▃▄▃▁▃",
+    "▃▇▂▅▁▅▄▃▁",
+    "▅▄▇▂▅▂▄▇▁",
+    "▃▅▂▅▃▇▄▅▃",
+]
 
-def stream_markup_timer(_, chat_id, played, dur):
-    played_sec = time_to_seconds(played)
-    duration_sec = time_to_seconds(dur)
-    percentage = (played_sec / duration_sec) * 100
-    tgn = math.floor(percentage)
-    if 0 < tgn <= 10:
-        bar = "◉—————————"
-    elif 10 < tgn < 20:
-        bar = "—◉————————"
-    elif 20 <= tgn < 30:
-        bar = "——◉———————"
-    elif 30 <= tgn < 40:
-        bar = "———◉——————"
-    elif 40 <= tgn < 50:
-        bar = "————◉—————"
-    elif 50 <= tgn < 60:
-        bar = "—————◉————"
-    elif 60 <= tgn < 70:
-        bar = "——————◉———"
-    elif 70 <= tgn < 80:
-        bar = "———————◉——"
-    elif 80 <= tgn < 95:
-        bar = "————————◉—"
-    else:
-        bar = "—————————◉"
-    
 
- def stream_markup_timer(_, videoid, chat_id, played, dur):
+## After Edits with Timer Bar
+
+
+def stream_markup_timer(_, videoid, chat_id, played, dur):
     bar = random.choice(selections)
     buttons = [
         [
@@ -47,7 +39,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=" sᴏᴜʀᴄᴇ ", url=f"https://github.com/WCGKING/BRANDED-X-KING"
+                text=" sᴏᴜʀᴄᴇ ", url=f"https://github.com/systemx5/MAHTOXANJALI"
             ),
         ],
         [
@@ -75,7 +67,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text=" sᴏᴜʀᴄᴇ ", url=f"https://github.com/WCGKING/BRANDED-X-KING"),
+            InlineKeyboardButton(text=" sᴏᴜʀᴄᴇ ", url=f"https://github.com/systemx5/MAHTOXANJALI"),
         ],
         [
             InlineKeyboardButton(
@@ -98,7 +90,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text=" sᴏᴜʀᴄᴇ ", url=f"https://github.com/WCGKING/BRANDED-X-KING"),
+            InlineKeyboardButton(text=" sᴏᴜʀᴄᴇ ", url=f"https://github.com/systemx5/MAHTOXANJALI"),
         ],
         [
             InlineKeyboardButton(
