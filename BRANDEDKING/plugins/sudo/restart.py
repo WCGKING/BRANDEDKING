@@ -18,7 +18,7 @@ from BRANDEDKING.utils.database import (
     remove_active_video_chat,
 )
 from BRANDEDKING.utils.decorators.language import language
-from BRANDEDKING.utils.pastebin import TGNBin
+from BRANDEDKING.utils.pastebin import BRANDEDBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
