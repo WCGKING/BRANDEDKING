@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from BRANDEDKING import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from BRANDEDKING.core.call import TGN
+from BRANDEDKING.core.call import BRANDED
 from BRANDEDKING.utils import seconds_to_min, time_to_seconds
 from BRANDEDKING.utils.channelplay import get_channeplayCB
 from BRANDEDKING.utils.decorators.language import languageCB
