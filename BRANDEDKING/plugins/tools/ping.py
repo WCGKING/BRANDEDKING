@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from BRANDEDKING import app
-from BRANDEDKING.core.call import TGN
+from BRANDEDKING.core.call import BRANDED
 from BRANDEDKING.utils import bot_sys_stats
 from BRANDEDKING.utils.decorators.language import language
 from BRANDEDKING.utils.inline import supp_markup
