@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from BRANDEDKING import app
-from BRANDEDKING.core.call import TGN
+from BRANDEDKING.core.call import BRANDED
 from BRANDEDKING.utils.database import is_music_playing, music_on
 from BRANDEDKING.utils.decorators import AdminRightsCheck
 from BRANDEDKING.utils.inline import close_markup
