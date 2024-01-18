@@ -8,7 +8,7 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from BRANDEDKING import app
 from BRANDEDKING.misc import db
-from BRANDEDKING.utils import TGNBin, get_channeplayCB, seconds_to_min
+from BRANDEDKING.utils import BRANDEDBin, get_channeplayCB, seconds_to_min
 from BRANDEDKING.utils.database import get_cmode, is_active_chat, is_music_playing
 from BRANDEDKING.utils.decorators.language import language, languageCB
 from BRANDEDKING.utils.inline import queue_back_markup, queue_markup
