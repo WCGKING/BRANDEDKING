@@ -7,7 +7,7 @@
 
 ![logo](https://te.legra.ph/file/e545cecbd06581d1a98f3.jpg)
 
-<img src="https://readme-typing-svg.herokuapp.com?color=F77247&width=980&lines=This+Project+Is+Inspired+On+The+Hard+Work+By+TheGodFather+Network%E2%9D%A4%EF%B8%8F">
+<img src="https://readme-typing-svg.herokuapp.com?color=F77247&width=980&lines=This+Project+Is+Inspired+On+The+Hard+Work+BRANDED BOT+Network%E2%9D%A4%EF%B8%8F">
 </p>
 
 ## 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗛𝗲𝗿𝗼𝗸𝘂
@@ -45,4 +45,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 [![Telegram](https://img.shields.io/badge/-Support-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/BRANDED_WORLD)
 [![Telegram](https://img.shields.io/badge/-UpDate-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/BRANDRD_BOT)
-[![Telegram](https://img.shields.io/badge/-UpDate-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)]([https://t.me/BRANDED_PAID_CC]
+[![Telegram](https://img.shields.io/badge/-UpDate-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)]([https://t.me/BRANDED_PAID_CC)
