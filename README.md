@@ -46,3 +46,14 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 [![Telegram](https://img.shields.io/badge/-Support-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/BRANDED_WORLD)
 [![Telegram](https://img.shields.io/badge/-UpDate-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)](https://t.me/BRANDRD_BOT)
 [![Telegram](https://img.shields.io/badge/-UpDate-grey?style=for-the-badge&logo=Telegram&logoColor=white&labelColor=8E2DE2)]([https://t.me/BRANDED_PAID_CC)
+━━━━━━━━━━━━━━━━━━━━
+
+# Credit
+  - [𝐁𝐑𝐀𝐍𝐃𝐄𝐃 𝐗 𝐊𝐈𝐍𝐆](https://github.com/BRANDEDKING82)
+
+• This project is TheGodFather.
+
+• BRANDEDKING is Free Software: You can use, study share and improve it at your will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+Made with ♥️ by [𝗪𝗖𝗚𝗞𝗜𝗡𝗚](https://github.com/WCGKING)
+
