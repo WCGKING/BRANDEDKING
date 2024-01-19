@@ -13,7 +13,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from BRANDEDKING.core.userbot import assistants
+            from TGNMusic.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -29,9 +29,8 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and i.chat.id != -1001626004802
-                                and i.chat.id != -1001876397776
-                                and i.chat.id != -1001860470873
+                                and i.chat.id != -1001762979765
+                                and i.chat.id != -1001810919938
                             ):
                                 if left == 20:
                                     continue
@@ -64,7 +63,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await TGN.stop_stream(chat_id)
+                    await BRANDED.stop_stream(chat_id)
                 except:
                     continue
                 try:
