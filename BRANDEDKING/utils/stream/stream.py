@@ -32,7 +32,7 @@ async def stream(
     if not result:
         return
     if forceplay:
-        await TGN.force_stop_stream(chat_id)
+        await BRANDED.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['play_19']}\n\n"
         count = 0
@@ -116,7 +116,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await TGNBin(msg)
+            link = await BRANDEDBin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
@@ -225,7 +225,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await TGN.join_call(chat_id, original_chat_id, file_path, video=None)
+            await BRANDED.join_call(chat_id, original_chat_id, file_path, video=None)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -277,7 +277,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await TGN.join_call(chat_id, original_chat_id, file_path, video=status)
+            await BRANDED.join_call(chat_id, original_chat_id, file_path, video=status)
             await put_queue(
                 chat_id,
                 original_chat_id,
