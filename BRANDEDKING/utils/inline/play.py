@@ -68,11 +68,16 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="☞ 𝐊𝐈𝐍𝐆 ☜", url="https://t.me/BRANDEDKING82",
+                text="❤️‍🔥 ᴋɪɴɢ", url="https://t.me/BRANDEDKING82",
             ),
             InlineKeyboardButton(
-                text="☞ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ☜", url="https://t.me/BRANDED_WORLD",
-            )
+                text="sᴜᴘᴘᴏʀᴛ 💌", url="https://t.me/BRANDED_WORLD",
+            ),
+            InlineKeyboardButton(
+                 text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://github.com/WCGKING/BRANDEDKING",
+            ),
+            InlineKeyboardButton(
+                text="🦋ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/BRANDED_PAID_CC",       
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -90,11 +95,16 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="☞ 𝐊𝐈𝐍𝐆 ☜", url="https://t.me/BRANDEDKING82",
+                text="❤️‍🔥 ᴋɪɴɢ", url="https://t.me/BRANDEDKING82",
             ),
             InlineKeyboardButton(
-                text="☞ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ☜", url="https://t.me/BRANDED_WORLD",
-            )
+                text="sᴜᴘᴘᴏʀᴛ 💌", url="https://t.me/BRANDED_WORLD",
+            ),
+            InlineKeyboardButton(
+                text="🌹 sᴏᴜʀᴄᴇ 🌹", url=f"https://github.com/WCGKING/BRANDEDKING",
+            ),
+            InlineKeyboardButton(
+                text="🦋 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/BRANDED_PAID_CC",    
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
