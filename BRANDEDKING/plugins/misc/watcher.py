@@ -11,4 +11,4 @@ close = 30
 @app.on_message(filters.video_chat_started, group=welcome)
 @app.on_message(filters.video_chat_ended, group=close)
 async def welcome(_, message: Message):
-    await TGN.stop_stream_force(message.chat.id)
+    await BRANDED.stop_stream_force(message.chat.id)
