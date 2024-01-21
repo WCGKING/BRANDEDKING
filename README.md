@@ -1,4 +1,10 @@
+━━━━━━━━━━━━━━━━━━━━
 # 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝓧 𝗞𝗜𝗡𝗚
+━━━━━━━━━━━━━━━━━━━━
+### 🌷𝐕𝐈𝐒𝐈𝐓𝐎𝐑𝐒🌷
+
+<!--
+**WCGKING/WCGKING** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 [![](https://img.shields.io/badge/BRANDEDKING-V2-darkgreen)](#)
 [![Stars](https://img.shields.io/github/stars/WCGKING/BRANDEDKING?style=flat-square&color=yellow)](https://github.com/WCGKING/BRANDEDKING/stargazers)
