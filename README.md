@@ -15,11 +15,27 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=F77247&width=980&lines=This+Project+Is+Inspired+On+The+Hard+Work+Branded+Network%E2%9D%A4%EF%B8%8F">
 </p>
 
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪  𝗞𝗛𝗨𝗦𝗜𝗖 𓆩🇽𓆪  𝗠𝗨𝗦𝗜𝗖](https://t.me/KHUSHI_MUSIC76_BOT)**
+
+
+<h2 align="center">
+    ⚠️「 📍𝗙𝗢𝗥𝗞 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗙𝗜𝗥𝗦𝗧𝗟𝗬📍 」⚠️
+
+
 ## 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗛𝗲𝗿𝗼𝗸𝘂
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/WCGKING/BRANDEDKING)
 
+
+🔴「 𝗜𝗙 𝗔𝗡𝗬 𝗘𝗥𝗥𝗢𝗥 𝗧𝗛𝗘𝗡 𝗦𝗘𝗡𝗗 𝗦𝗦 𝗧𝗢 𝗗𝗠 」🔴
+<p align="center">
+<a href="https://telegram.me/BRANDED_WORLD"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗪𝗢𝗥𝗟𝗗%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+</p>
+<h3 align="center">
+
+
+━━━━━━━━━━━━━━━━━━━━ 
 
 ## 𝗗𝗲𝗽𝗹𝗼𝘆 𝗼𝗻 𝗩𝗣𝗦
 - Get your [Necessary Variables](https://github.com/WCGKING/BRANDEDKING/blob/master/.env)
@@ -62,3 +78,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 Made with ♥️ by [𝗪𝗖𝗚𝗞𝗜𝗡𝗚](https://github.com/WCGKING)
 
+- <b> sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʙʀᴀɴᴅᴇᴅ](https://github.com/WCGKING) ғᴏʀ [ʙʀᴀɴᴅᴇᴅ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/WCGKING/SYSTUM). </b>
