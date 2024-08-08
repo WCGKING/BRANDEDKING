@@ -17,7 +17,7 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from BRANDEDKING import LOGGER, YouTube, app
+from BRANDEDKING import LOGGER, YouTube, app, YTB
 from BRANDEDKING.misc import db
 from BRANDEDKING.utils.database import (
     add_active_chat,
@@ -410,6 +410,14 @@ class Call(PyTgCalls):
                 mystic = await app.send_message(original_chat_id, _["call_7"])
                 try:
                     file_path, direct = await YouTube.download(
+                        videoid,
+                        mystic,
+                        videoid=True,
+                        video=True if str(streamtype) == "video" else False,
+                    )
+                except:
+                    try:
+                    file_path, direct = await await YTB.download(
                         videoid,
                         mystic,
                         videoid=True,
