@@ -1,4 +1,3 @@
-
 FROM nikolaik/python-nodejs:python3.11-nodejs20
 
 RUN apt-get update \
