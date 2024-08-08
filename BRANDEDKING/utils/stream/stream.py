@@ -1,11 +1,12 @@
 import os
+import logging
 from random import randint
 from typing import Union
 
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from BRANDEDKING import Carbon, YouTube, app
+from BRANDEDKING import Carbon, YouTube, YTB, app
 from BRANDEDKING.core.call import BRANDED
 from BRANDEDKING.misc import db
 from BRANDEDKING.utils.database import add_active_video_chat, is_active_chat
@@ -78,7 +79,14 @@ async def stream(
                         vidid, mystic, video=status, videoid=True
                     )
                 except:
-                    raise AssistantErr(_["play_14"])
+                     try:
+                        
+                        file_path, direct = await YTB.download(
+                            vidid, mystic, video=status, videoid=True
+                        )
+                     except Exception as e:
+                        logging.error(e)    
+                        raise AssistantErr(_["play_14"])
                 await BRANDED.join_call(
                     chat_id,
                     original_chat_id,
