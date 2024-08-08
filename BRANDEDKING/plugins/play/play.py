@@ -24,7 +24,6 @@ from BRANDEDKING.utils.logger import play_logs
 from BRANDEDKING.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
-
 @app.on_message(
     filters.command(
         [
@@ -288,7 +287,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await BRANDED.stream_call(url)
+                await Inflex.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
@@ -660,4 +659,4 @@ async def slider_queries(client, CallbackQuery, _):
         )
         return await CallbackQuery.edit_message_media(
             media=med, reply_markup=InlineKeyboardMarkup(buttons)
-)
+        )
