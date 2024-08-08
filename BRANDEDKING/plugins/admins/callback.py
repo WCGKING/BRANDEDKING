@@ -3,7 +3,7 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from BRANDEDKING import YouTube, app
+from BRANDEDKING import YouTube, app, YTB
 from BRANDEDKING.core.call import BRANDED
 from BRANDEDKING.misc import SUDOERS, db
 from BRANDEDKING.utils.database import (
