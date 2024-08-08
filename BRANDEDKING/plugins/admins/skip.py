@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from BRANDEDKING import YouTube, app
+from BRANDEDKING import YouTube, app, YTB
 from BRANDEDKING.core.call import BRANDED
 from BRANDEDKING.misc import db
 from BRANDEDKING.utils.database import get_loop
