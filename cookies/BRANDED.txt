@@ -1,4 +1,4 @@
- # Netscape HTTP Cookie File
+# Netscape HTTP Cookie File
 # This is a generated file! Do not edit.
 
 # domain  include_subdomains  path  secure  expiration_date  name  value
@@ -23,3 +23,4 @@
 .youtube.com	TRUE	/	TRUE	1793269272	__Secure-1PAPISID	_dHr5gwZg1Xl4ofI/A5WHVkS8ps9DoiEvI
 .youtube.com	TRUE	/	TRUE	1758711010	GPS	1
 .youtube.com	TRUE	/	TRUE	1774261466	VISITOR_INFO1_LIVE	btyA3zWNXrw
+
