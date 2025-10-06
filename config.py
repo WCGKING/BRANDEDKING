@@ -21,7 +21,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
-# Get this value from @BRANDRD_ROBOT on Telegram by /id
+# Get this value from @Systumm_music_bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", ""))
 
 ## Fill these variables if you're deploying on heroku.
@@ -29,6 +29,10 @@ OWNER_ID = int(getenv("OWNER_ID", ""))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz')
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = getenv("API_KEY", '30DxNexGenBotsfcfad8')
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
