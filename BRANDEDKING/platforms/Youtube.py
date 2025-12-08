@@ -16,7 +16,11 @@ import random
 import logging
 import aiohttp
 import config
-from config import API_URL, VIDEO_API_URL, API_KEY
+import traceback
+from BRANDEDKING import LOGGER
+
+API_URL = "https://teaminflex.xyz"  # Change to your API server URL
+API_KEY = "INFLEX93454428D"
 
 
 def cookie_txt_file():
