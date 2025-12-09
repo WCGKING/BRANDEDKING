@@ -3,21 +3,17 @@ import os
 import re
 import json
 from typing import Union
-import requests
+import aiohttp
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from youtubesearchpython.__future__ import VideosSearch
+from py_yt import VideosSearch
 from BRANDEDKING.utils.database import is_on_off
-from BRANDEDKING import app
 from BRANDEDKING.utils.formatters import time_to_seconds
-import os
 import glob
 import random
 import logging
-import pymongo
-import aiohttp
-import config
+from urllib.parse import quote_plus
 from BRANDEDKING import LOGGER
 
 API_URL = "https://kartik.opusx.workers.dev/yt"
