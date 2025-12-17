@@ -30,12 +30,6 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-API_URL = "https://kartik.opusx.workers.dev/yt"
-DOWNLOAD_FOLDER = "downloads"
-CHUNK_SIZE = 8192  # don't chnge this value
-RETRIES = 6  # you may increase if error arises for some yt videos
-
-
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/WCGKING/BRANDEDKING",
