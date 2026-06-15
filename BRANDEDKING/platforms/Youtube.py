@@ -5,10 +5,14 @@ from typing import Union
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from youtubesearchpython.__future__ import VideosSearch
-from BRANDEDKING.utils.formatters import time_to_seconds
+from py_yt import VideosSearch, Playlist
 import aiohttp
-from BRANDEDKING import LOGGER
+
+API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
+
+API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsWtQUKDTAv5KUMyByWwFe") ## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT 
+
+DOWNLOAD_DIR = "downloads"
 
 DOWNLOAD_DIR = "downloads"
 
