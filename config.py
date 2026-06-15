@@ -24,9 +24,6 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 # Get this value from @Systumm_music_bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", ""))
 
-BASE_API_URL  = getenv("BASE_API_URL", 'https://api.shrutibots.site"')
-BASE_API_KEY  = getenv("BASE_API_KEY ", 'ShrutiBotsWtQUKDTAv5KUMyByWwFe')
-
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
